@@ -1,0 +1,29 @@
+id,type,dates,name,price
+1,true,15/2/2019,"Wine - White, Ej",318
+2,false,19/2/2019,Marzipan 50/50,884
+3,true,18/2/2019,Muffin Mix - Chocolate Chip,570
+4,false,26/2/2019,Lettuce - Green Leaf,581
+5,false,9/2/2019,"Cheese - Havarti, Salsa",39
+6,false,3/2/2019,Beef - Kobe Striploin,779
+7,true,19/2/2019,Tomatoes Tear Drop Yellow,796
+8,true,16/2/2019,Oyster - In Shell,881
+9,false,12/2/2019,Wine - George Duboeuf Rose,891
+10,false,7/2/2019,Bandage - Finger Cots,31
+11,true,27/2/2019,Beef - Bresaola,523
+12,true,20/2/2019,Tilapia - Fillets,970
+13,true,9/2/2019,"Basil - Primerba, Paste",641
+14,true,23/2/2019,"Chilli Paste, Hot Sambal Oelek",455
+15,false,15/2/2019,Kohlrabi,686
+16,true,12/2/2019,"Mushroom - Chantrelle, Fresh",999
+17,true,1/2/2019,Puree - Mocha,962
+18,true,10/2/2019,Vinegar - White Wine,780
+19,false,4/2/2019,Bread Crumbs - Japanese Style,777
+20,true,4/2/2019,"Pepper - White, Ground",83
+21,false,19/2/2019,"Rum - Spiced, Captain Morgan",910
+22,true,18/2/2019,Wine - Vouvray Cuvee Domaine,242
+23,true,19/2/2019,Truffle Cups - Brown,762
+24,true,16/2/2019,Chef Hat 25cm,383
+25,false,3/2/2019,"Cake Circle, Paprus",118
+26,false,6/2/2019,Turkey - Ground. Lean,187
+27,false,4/2/2019,"Pasta - Penne, Rigate, Dry",351
+28,true,24/2/2019,Mustard - Pommery,420
