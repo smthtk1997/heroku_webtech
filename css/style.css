@@ -9,17 +9,47 @@ body{
 .headerText{
     border-bottom: #ff4b5a solid 2px;
     padding-bottom: 8px;
-    margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .btn-nav span{
     transition: 0.3s;
     color: #232323;
-    /*-webkit-text-fill-color: black;*/
 }
 
 .btn-nav span:hover{
     color: #e6373c;
-    /*-webkit-text-fill-color: #6e6e6e;*/
+}
+
+.intable{
+    padding: 40px 30px;
+}
+
+.cardColor{
+    transition: 0.5s;
+    border-color: #ecebe8;
+}
+
+.cardColor:hover{
+    transition: 0.5s;
+    border-color: #c8c7c4;
+}
+.cardColor{
+    transition: 0.5s;
+    border-color: #ecebe8;
+    margin-bottom: 20px;
+}
+
+.cardStyleMargin{
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.cardColor:hover{
+    transition: 0.5s;
+    border-color: #c8c7c4;
+}
+
+.colorCardDecore:hover{
+    background-color: #f8f8f8;
 }
