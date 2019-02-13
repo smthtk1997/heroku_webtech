@@ -84,7 +84,7 @@ if (isset($_POST)) {
                     <div class="card-header" style="font-size: 16px; padding: 8px; font-weight: bold">
                         INFORMATION
                     </div>
-                    <div class="card-body" style="font-size: 16px; padding: 8px;"><?php echo 'Name: '.$fname.' '.$lname."<br>"."<div style=\"padding-top: 5px\">E-mail: .$email</div>"?></div>
+                    <div class="card-body" style="font-size: 16px; padding: 8px;"><?php echo 'Name: '.$fname.' '.$lname."<br>"."<div style=\"padding-top: 5px\">E-mail: $email</div>"?></div>
                 </div>
             </div>
         </div>
