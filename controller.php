@@ -17,6 +17,7 @@ if (isset($_POST)) {
     $fname = $_POST["fname"];
     $lname = $_POST["lname"];
     $email = $_POST["userMail"];
+    $namefile = $_FILES['filepath'];
 
     if ($_FILES["filepath"]["type"] != "text/csv" || $_FILES["filepath"]["type"] != "text/comma-separated-values") {
         echo "<script>
