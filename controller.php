@@ -19,8 +19,9 @@ if (isset($_POST)) {
     $email = $_POST["userMail"];
 
     if ($_FILES["filepath"]["type"] != "text/csv") {
+        $namefile = $_FILES["filepath"]["type"];
         echo "<script>
-                alert('File type incorrect!');
+                alert('File type incorrect! - $namefile ');
                 window.location.href = \"home.php\";
               </script>>";
 
@@ -131,13 +132,15 @@ if (isset($_POST)) {
                 if ($i > 0){
                     if ($typeInput == "true") {
                         $type = "Income";
+                        $color = "#3ab41c";
                     }else if($typeInput == "false") {
                         $type = "Expense";
+                        $color = "#d21b00";
                     }
                     echo "
                     <tr>
                     <td>" . $line_of_data[$i][0] . "</td>
-                    <td>" . $type . "</td>
+                    <td style='color: ".$color.";'>" . $type . "</td>
                     <td>" . $line_of_data[$i][2] . "</td>
                     <td>" . $line_of_data[$i][3] . "</td>
                     <td>" . $line_of_data[$i][4] . "</td>

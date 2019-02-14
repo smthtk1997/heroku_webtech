@@ -20,7 +20,7 @@
 <body>
     <header>
         <!-- Image and text -->
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="navbar-brand">
                 <img src="imgs/heart-ani.svg" width="35" height="35" class="d-inline-block align-top" alt="">
             </div>
