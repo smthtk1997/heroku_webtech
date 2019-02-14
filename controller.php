@@ -18,8 +18,7 @@ if (isset($_POST)) {
     $lname = $_POST["lname"];
     $email = $_POST["userMail"];
 
-    if ($_FILES["filepath"]["type"] != "text/csv") {
-        $namefile = $_FILES["filepath"]["type"];
+    if ($_FILES["filepath"]["type"] != "text/csv" || $_FILES["filepath"]["type"] != "text/comma-separated-values") {
         echo "<script>
                 alert('File type incorrect! - $namefile ');
                 window.location.href = \"home.php\";
