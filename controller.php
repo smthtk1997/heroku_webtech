@@ -117,7 +117,7 @@ if (isset($_POST)) {
                 </div>
             </div>
         </div>
-        <table class="table table-bordered">
+        <table class="table table-bordered table-responsive">
             <thead>
             <tr style="color: white;background-color: #e14641">
                 <th scope="col">#</th>
