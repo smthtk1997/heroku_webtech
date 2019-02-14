@@ -21,7 +21,7 @@ if (isset($_POST)) {
 
     $mimes = array('text/comma-separated-values','text/csv','application/vnd.ms-excel');
 
-    if (in_array($_FILES['filepath']['type'],$mimes)) {
+    if (!in_array($_FILES['filepath']['type'],$mimes)) {
         echo "<script>
                 alert('File type incorrect! - $namefile ');
                 window.location.href = \"home.php\";
