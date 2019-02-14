@@ -20,7 +20,7 @@ if (isset($_POST)) {
     $namefile = $_FILES['filepath']['type'];
 
     //$_FILES["filepath"]["type"] !== "text/csv" || $_FILES["filepath"]["type"] !== "text/comma-separated-values"
-    if (1+1==2) {
+    if (1+1!=2) {
         echo "<script>
                 alert('File type incorrect! - $namefile ');
                 window.location.href = \"home.php\";
