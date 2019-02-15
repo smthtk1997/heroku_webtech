@@ -1,0 +1,6 @@
+id,type,dates,name,price
+1,TRUE,11/2/62,Salary,1000
+2,TRUE,12/2/62,Bonus,1500
+3,FALSE,13/2/62,Shop,600
+4,FALSE,14/2/62,Macbook,2000
+5,TRUE,15/2/62,red envelope,3000

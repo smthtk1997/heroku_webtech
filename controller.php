@@ -95,7 +95,7 @@ if (isset($_POST)) {
             <div class="col-md-4 col-sm-12">
                 <div class="card cardColor text-center colorCardDecore">
                     <div class="card-header" style="font-size: 16px; padding: 8px; font-weight: bold">
-                        TOTAL
+                        TOTAL BALANCE
                     </div>
                     <div class="card-body" style="font-size: 16px; padding: 8px;"><?php echo $total; ?></div>
                 </div>
@@ -117,29 +117,30 @@ if (isset($_POST)) {
                 </div>
             </div>
         </div>
-        <table class="table table-bordered table-responsive">
-            <thead>
-            <tr style="color: white;background-color: #e14641">
-                <th scope="col">#</th>
-                <th scope="col">TYPE</th>
-                <th scope="col">DATE</th>
-                <th scope="col">NAME</th>
-                <th scope="col">PRICE</th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php
-            for ($i = 1; $i< sizeof($line_of_data) ; $i++) {
-                $typeInput = strtolower($line_of_data[$i][1]);
-                if ($i > 0){
-                    if ($typeInput == "true") {
-                        $type = "Income";
-                        $color = "#3ab41c";
-                    }else if($typeInput == "false") {
-                        $type = "Expense";
-                        $color = "#d21b00";
-                    }
-                    echo "
+        <div class="table-responsive text-nowrap">
+            <table class="table table-hover">
+                <thead>
+                <tr style="color: white;background-color: #e14641">
+                    <th scope="col">#</th>
+                    <th scope="col">TYPE</th>
+                    <th scope="col">DATE</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">PRICE</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php
+                for ($i = 1; $i< sizeof($line_of_data) ; $i++) {
+                    $typeInput = strtolower($line_of_data[$i][1]);
+                    if ($i > 0){
+                        if ($typeInput == "true") {
+                            $type = "Income";
+                            $color = "#3ab41c";
+                        }else if($typeInput == "false") {
+                            $type = "Expense";
+                            $color = "#d21b00";
+                        }
+                        echo "
                     <tr>
                     <td>" . $line_of_data[$i][0] . "</td>
                     <td style='color: ".$color.";'>" . $type . "</td>
@@ -148,12 +149,14 @@ if (isset($_POST)) {
                     <td>" . $line_of_data[$i][4] . "</td>
                     </tr>
                     ";
+                    }
                 }
-            }
-            ?>
+                ?>
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 </div>
 </body>

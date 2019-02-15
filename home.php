@@ -28,7 +28,7 @@ include('header.php')
                         <label class="custom-file-label" for="filepath" style="font-weight: normal">Choose File</label>
                     </div>
                     <small id="passwordHelpInline" class="text-muted">
-                        <span style="-webkit-text-fill-color: red">*.csv file only</span>
+                        <span style="-webkit-text-fill-color: red">*.csv file only, mobile platform supported.</span>
                     </small>
                 </div>
             </div>
